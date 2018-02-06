@@ -16,7 +16,6 @@ export default class Layout extends Component {
         </Head>
         <Header />
         {this.props.children}
-        <h2>footer</h2>
       </Container>
     )
   }
